@@ -3,9 +3,12 @@ import XCTest
 
 final class RandomTextLabelTests: XCTestCase {
     func testExample() throws {
-        // This is an example of a functional test case.
-        // Use XCTAssert and related functions to verify your tests produce the correct
-        // results.
-        XCTAssertEqual(RandomTextLabel().text, "Hello, World!")
+        UILabel.randomText()
+        let label = UILabel()
+        let initialText = "non random text"
+        label.text = initialText
+        XCTAssertNotNil(label.text)
+        print("Random text \(label.text!)")
+        XCTAssertNotEqual(label.text, initialText) //a random text must have been assigned
     }
 }
