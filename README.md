@@ -35,9 +35,9 @@ UILabel.randomText() //now all labels get a random text when .text = .. is calle
 
 ## Meta
 
-George Termentzoglou – [@YourTwitter](https://twitter.com/dbader_org) – YourEmail@example.com
+George Termentzoglou – [Medium](https://medium.com/@george.termentzoglou) – georgeterme@gmail.com
 
-Distributed under the MIT license. See ``LICENSE`` for more information.
+Distributed under the MIT license.
 
 [https://github.com/geoter](https://github.com/geoter)
 
