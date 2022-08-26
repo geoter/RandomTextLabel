@@ -19,7 +19,7 @@ extension UILabel {
         _swizzled_setText(randomText)
     }
         
-    static func randomText() {
+    static public func randomText() {
         let selector1 = #selector(setter: UILabel.text)
         let selector2 = #selector(UILabel._swizzled_setText(_:))
         let originalMethod = class_getInstanceMethod(UILabel.self, selector1)!
