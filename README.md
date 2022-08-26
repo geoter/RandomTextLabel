@@ -1,4 +1,4 @@
-# RandomTextLabel
+# RandomTextLabel (Swift Package)
 
 This library helps you easily stress test your layout constraints, by assigning random long strings to UILabels.
 The type of content is respected, to help readability of the UI. (A number is replaced with a big number)
